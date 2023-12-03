@@ -12,7 +12,7 @@ def create_files(dir_name, script_name):
     )
 }}
 
-export default {script_name}Page;
+export default {script_name.capitalize(}Page;
 """
 
     with open(os.path.join(dir_path, f'{script_name}.js'), 'w') as js_file:
